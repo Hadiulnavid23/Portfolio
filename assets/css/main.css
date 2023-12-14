@@ -1977,6 +1977,23 @@ input, select, textarea {
 			background-color: #7eaeac;
 		}
 
+.row {
+    display: block;
+    width: 100%;
+}
+
+.col-4, .col-12-mobile {
+    width: 100%; /* This makes each column take full width of its parent */
+    padding: 0; /* Removes any default padding */
+}
+
+.image.fit img {
+    width: 100%; /* This makes the image stretch to the full width of its container */
+    height: auto; /* This maintains the aspect ratio of the image */
+    display: block; /* Ensures the image takes up the whole line */
+}
+
+
 /* Item */
 
 	.item {
