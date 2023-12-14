@@ -1981,9 +1981,7 @@ input, select, textarea {
 
 /* Item */
 	.centering{
-		 display: flex;
-  align-items: center;
-  justify-content: center;
+		 margin-left: 50px;
 	}
 
 	.item {
